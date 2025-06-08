@@ -5,7 +5,7 @@ import ecom from "../../assets/e-commrece.png"
 import { Link } from 'react-router-dom'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
-import { Link } from 'react-router-dom'
+
 
 
 
