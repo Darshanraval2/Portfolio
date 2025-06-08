@@ -5,6 +5,7 @@ import ecom from "../../assets/e-commrece.png"
 import { Link } from 'react-router-dom'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
+import { Link } from 'react-router-dom'
 
 
 
@@ -25,8 +26,8 @@ const Home = () => {
               Transforming ideas into responsive web experiences with React, Node.js & MongoDB"
             </p>
             <div className="hero-buttons">
-              <a href="/contact" className="cta-button primary">Get in Touch</a>
-              <a href="/projects" className="cta-button secondary">View Projects</a>
+              <Link to="/contact" className="cta-button primary">Get in Touch</Link>
+              <Link to="/projects" className="cta-button secondary">View Projects</Link>
             </div>
           </div>
           <div className="hero-image">
@@ -106,7 +107,7 @@ const Home = () => {
       <section id="contact" className="cta-section">
         <h2>Let's Work Together</h2>
         <p>I'm always open to discussing new projects and opportunities</p>
-        <a href="/contact" className="cta-button primary">Get in Touch</a>
+        <Link href="/contact" className="cta-button primary">Get in Touch</Link>
       </section>
 
 
