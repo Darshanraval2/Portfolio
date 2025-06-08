@@ -1,0 +1,14 @@
+/* Add padding to account for fixed navbar */
+main {
+  padding-top: 5rem;
+}
+
+/* Ensure content takes full height */
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+
