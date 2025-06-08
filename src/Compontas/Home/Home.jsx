@@ -25,8 +25,8 @@ const Home = () => {
               Transforming ideas into responsive web experiences with React, Node.js & MongoDB"
             </p>
             <div className="hero-buttons">
-              <a href="contact" className="cta-button primary">Get in Touch</a>
-              <a href="projects" className="cta-button secondary">View Projects</a>
+              <a href="/contact" className="cta-button primary">Get in Touch</a>
+              <a href="/projects" className="cta-button secondary">View Projects</a>
             </div>
           </div>
           <div className="hero-image">
@@ -106,7 +106,7 @@ const Home = () => {
       <section id="contact" className="cta-section">
         <h2>Let's Work Together</h2>
         <p>I'm always open to discussing new projects and opportunities</p>
-        <a href="contact" className="cta-button primary">Get in Touch</a>
+        <a href="/contact" className="cta-button primary">Get in Touch</a>
       </section>
 
 
