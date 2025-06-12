@@ -107,7 +107,7 @@ const Home = () => {
       <section id="contact" className="cta-section">
         <h2>Let's Work Together</h2>
         <p>I'm always open to discussing new projects and opportunities</p>
-        <Link href="/contact" className="cta-button primary">Get in Touch</Link>
+        <Link to="/contact" className="cta-button primary">Get in Touch</Link>
       </section>
 
 
