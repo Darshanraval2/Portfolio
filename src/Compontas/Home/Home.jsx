@@ -5,6 +5,7 @@ import ecom from "../../assets/e-commrece.png"
 import { Link } from 'react-router-dom'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
+import port from "../../assets/portfolio.png"
 
 
 
@@ -87,16 +88,18 @@ const Home = () => {
             </div>
           </div>
           <div className="project-card">
+           
             <div className="project-image">
-              <img src="/project2-placeholder.jpg" alt="Project 2" />
+              <img src={port} alt="Portfolio" />
             </div>
             <div className="project-info">
-              <h3>Task Management App</h3>
-              <p>A collaborative task management application</p>
+               <a href="https://darshan-portfolio-darshan-6674s-projects.vercel.app/">
+              <h3>Porfolio</h3></a>
+              <p>Responsive Web site appliction</p>
               <div className="project-tags">
                 <span>React</span>
-                <span>Express</span>
-                <span>MongoDB</span>
+                <span>CSS & HTML</span>
+                <span>Javascript</span>
               </div>
             </div>
           </div>

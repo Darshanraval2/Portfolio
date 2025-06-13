@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import ecom from "../../assets/e-commrece.png"
+import port from "../../assets/portfolio.png"
 
 const Projects = () => {
   const projects = [
@@ -19,9 +20,9 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A responsive portfolio website showcasing my projects and skills with modern design and animations.",
       technologies: ["React", "CSS3", "JavaScript"],
-      image: "/project3-placeholder.jpg",
-      liveLink: "#",
-      githubLink: "https://github.com/yourusername/portfolio"
+      image: port,
+      liveLink: "https://darshan-portfolio-darshan-6674s-projects.vercel.app/",
+      githubLink: "https://github.com/DARSHAN-6674/Portfolio"
     }
   ];
 
