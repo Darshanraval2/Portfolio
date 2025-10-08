@@ -63,8 +63,8 @@ const Home = () => {
       </section>
 
 
-      <section className='about'>
-        <About />
+      <section id="about" className='about'>
+        <About /> 
       </section>
 
       {/* Featured Projects Preview */}
