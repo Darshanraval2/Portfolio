@@ -2,6 +2,8 @@ import React from 'react'
 import './Projects.css'
 import ecom from "../../assets/e-commrece.png"
 import port from "../../assets/portfolio.png"
+import ai from "../../assets/aicodeimg.png"
+import store from "../../assets/store.png"
 
 const Projects = () => {
   const projects = [
@@ -14,9 +16,26 @@ const Projects = () => {
       liveLink: "https://e-commerce-mu-ebon.vercel.app/",
       githubLink: "https://github.com/DARSHAN-6674/E-commerce-"
     },
-
+    {
+      id: 2,
+      title: "StoreHub",
+      description: "A modern e-commerce platform with advanced features including inventory management, user authentication, and seamless shopping experience.",
+      image: store, // You can replace this with a specific StoreHub image
+      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+      liveLink: "#", // Add your live link here
+      githubLink: "https://github.com/Darshanraval2/StoreHub-.git" // Add your GitHub link here
+    },
     {
       id: 3,
+      title: "AI Code Reviewer",
+      description: "An intelligent code review tool powered by AI that analyzes code quality, suggests improvements, and identifies potential bugs automatically.",
+      image: ai,
+      technologies: ["JavaScript", "Node.js", "React", "Express", "Google AI Studio", "MERN"],
+      liveLink: "https://aicodereviewer1.netlify.app", // Add your live link here
+      githubLink: "https://github.com/Darshanraval2/AI-Code-Reviewer-.git" // Add your GitHub link here
+    },
+    {
+      id: 4,
       title: "Portfolio Website",
       description: "A responsive portfolio website showcasing my projects and skills with modern design and animations.",
       technologies: ["React", "CSS3", "JavaScript"],

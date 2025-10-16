@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
 import port from "../../assets/portfolio.png"
+import ai from "../../assets/aicodeimg.png"
 
 
 
@@ -73,17 +74,19 @@ const Home = () => {
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-image">
-              <img src={ecom} alt="Project 1" />
+              <img src={ai} alt="Project 1" />
             </div>
             <div className="project-info">
-              <a href="https://e-commerce-mu-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <h3>E-Commerce Platform</h3>
+              <a href="https://aicodereviewer1.netlify.app" target="_blank" rel="noopener noreferrer">
+                <h3> AI Code Reviewer </h3>
               </a>
-              <p>A full-stack e-commerce solution with React and Node.js</p>
+              <p>AI Code Review tool corrects code and suggests improvements. </p>
               <div className="project-tags">
                 <span>React</span>
                 <span>Node.js</span>
-                <span>MongoDB</span>
+                <span>Express</span>
+                <span>Google AI Studio</span>
+                <span>MERN</span>
               </div>
             </div>
           </div>
